@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Israel Alonso Portfolio</title>
         {/* Charset */}
         <meta charSet="UTF-8" />
 
@@ -33,6 +34,12 @@ export default function RootLayout({
 
         {/* Author */}
         <meta name="author" content="Israel Alonso" />
+
+        {/* Description */}
+        <meta
+          name="description"
+          content="Explora el portafolio de Israel Alonso, un desarrollador web apasionado por crear aplicaciones modernas y funcionales."
+        />
 
         {/* Keywords */}
         <meta
